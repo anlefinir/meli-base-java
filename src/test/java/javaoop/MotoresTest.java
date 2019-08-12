@@ -42,7 +42,7 @@ public class MotoresTest {
         Assertions.assertThat(motorAEnergiaNuclear.potencia).isEqualTo(0);
         Assertions.assertThat(motorACombustible.temperatura).isEqualTo(0);
         Assertions.assertThat(motorAEnergiaSolar.temperatura).isEqualTo(0);
-        Assertions.assertThat(motorAEnergiaNuclear.temperatura).isEqualTo(0);
+        Assertions.assertThat(motorAEnergiaNuclear.temperatura).isEqualTo(1);
     }
 
     @Test
