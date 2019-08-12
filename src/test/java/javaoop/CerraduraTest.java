@@ -3,6 +3,9 @@ package javaoop;
 import org.junit.Test;
 import org.assertj.core.api.Assertions;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class CerraduraTest {
     @Test
     public void crearCerradura(){
@@ -49,4 +52,5 @@ public class CerraduraTest {
         //Veo que no esta cerrada
         Assertions.assertThat(cerradura.estaCerrada()).isFalse();
     }
+
 }
