@@ -25,9 +25,6 @@ hs_err_pid*
 # Package Files #
 .idea
 
-# Ignore Travis CI
-.travis.yml
-
 # Ignore Gradle project-specific cache directory
 .gradle
 
