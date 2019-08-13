@@ -12,6 +12,6 @@ public class MotorEnegia extends Motor {
         temperatura -= x;
     }
 
-    Supplier<List<String>> listSupply = ArrayList<String>::new;
-    Supplier<List<Cerradura>> listSupply2 = ArrayList<Cerradura>::;
+    //Supplier<List<String>> listSupply = ArrayList<String>::new;
+    //Supplier<List<Cerradura>> listSupply2 = ArrayList<Cerradura>::;
 }
