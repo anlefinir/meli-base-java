@@ -22,6 +22,7 @@ public class MotoresTest {
         Motor motor = new MotorACombustible();
         Assertions.assertThat(motor).isNotNull();
     }
+    
 
     @Test
     public void creacionDeMotorAEnergiaSolar(){
