@@ -24,3 +24,6 @@ hs_err_pid*
 
 # Package Files #
 .idea
+
+# Ignore Travis CI
+.travis.yml
